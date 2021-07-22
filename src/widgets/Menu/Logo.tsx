@@ -23,7 +23,7 @@ const StyledLink = styled(Link)`
     }
   }
   .desktop-icon {
-    width: 174px;
+    width: 156px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
@@ -42,7 +42,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
 
   return (
     <Flex>
-      <MenuButton aria-label="Toggle menu" onClick={togglePush} mr="14px">
+      <MenuButton aria-label="Toggle menu" onClick={togglePush} mr="24px">
         {isPushed ? (
           <HamburgerCloseIcon width="24px" color="textSubtle" />
         ) : (
@@ -50,11 +50,11 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Panther home page">
+        <StyledLink as="a" href={href} aria-label="Pancake home page">
           {innerLogo}
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Panther home page">
+        <StyledLink to={href} aria-label="Pancake home page">
           {innerLogo}
         </StyledLink>
       )}

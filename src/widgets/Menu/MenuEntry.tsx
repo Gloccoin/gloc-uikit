@@ -21,7 +21,6 @@ const LinkLabel = styled.div<{ isPushed: boolean }>`
   color: ${({ isPushed, theme }) => (isPushed ? theme.colors.textSubtle : "transparent")};
   transition: color 0.4s;
   flex-grow: 1;
-  color: ${({ theme }) => theme.colors.text};
 `;
 
 const MenuEntry = styled.div<Props>`
@@ -40,7 +39,6 @@ const MenuEntry = styled.div<Props>`
     align-items: center;
     width: 100%;
     height: 100%;
-    color: ${({ theme }) => theme.colors.text};
   }
 
   svg {
@@ -56,15 +54,10 @@ const MenuEntry = styled.div<Props>`
 
   &.rainbow {
     -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: ${rainbowAnimation} 5s ease-in-out infinite;
+    animation: ${rainbowAnimation} 3s ease-in-out infinite;
     background: ${({ theme }) => theme.colors.gradients.bubblegum};
-    background-size: 400% 100%;
-
-    a > div {
-      color: ${({ theme }) => theme.colors.textSubtle};
-    }
+    background-size: 200% 100%;
+    font-weight: bold;
   }
 `;
 MenuEntry.defaultProps = {

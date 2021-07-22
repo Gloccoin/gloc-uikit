@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://dex.pantherswap.com",
+        href: "https://exchange.pancakeswap.finance",
       },
       {
         label: "Liquidity",
-        href: "https://dex.pantherswap.com/#/pool",
+        href: "https://exchange.pancakeswap.finance/#/pool",
       },
     ],
   },
@@ -59,19 +59,19 @@ export const links = [
     items: [
       {
         label: "Overview",
-        href: "https://pantherswap.info",
+        href: "https://pancakeswap.info",
       },
       {
         label: "Tokens",
-        href: "https://pantherswap.info/tokens",
+        href: "https://pancakeswap.info/tokens",
       },
       {
         label: "Pairs",
-        href: "https://pantherswap.info/pairs",
+        href: "https://pancakeswap.info/pairs",
       },
       {
         label: "Accounts",
-        href: "https://pantherswap.info/accounts",
+        href: "https://pancakeswap.info/accounts",
       },
     ],
   },
@@ -93,21 +93,21 @@ export const links = [
     label: "More",
     icon: "MoreIcon",
     items: [
-      {
-        label: "Voting",
-        href: "https://voting.pantherswap.com",
-      },
+      // {
+      //   label: "Voting",
+      //   href: "https://voting.pancakeswap.finance",
+      // },
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/goosedefi/",
       },
       {
         label: "Docs",
-        href: "https://docs.pantherswap.com",
+        href: "https://goosedefi.gitbook.io/goose-finance/",
       },
       {
         label: "Blog",
-        href: "https://pantherswap.medium.com",
+        href: "https://goosefinance.medium.com/",
       },
     ],
   },
@@ -115,38 +115,72 @@ export const links = [
 
 export const socials = [
   {
-    label: "Github",
-    icon: "GithubIcon",
-    href: "https://github.com/pantherswap",
-  },
-  {
-    label: "Docs",
-    icon: "GitbookIcon",
-    href: "https://docs.pantherswap.com",
-  },
-  {
-    label: "Medium",
-    icon: "MediumIcon",
-    href: "https://pantherswap.medium.com",
-  },
-  {
-    label: "Twitter",
-    icon: "TwitterIcon",
-    href: "https://twitter.com/PantherSwap",
-  },
-  {
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
       {
         label: "English",
-        href: "https://t.me/PantherSwap",
+        href: "https://t.me/goosedefi",
+      },
+      // {
+      //   label: "Bahasa Indonesia",
+      //   href: "https://t.me/PancakeSwapIndonesia",
+      // },
+      {
+        label: "中文",
+        href: "https://t.me/goosefinancechinese",
+      },
+      // {
+      //   label: "Tiếng Việt",
+      //   href: "https://t.me/PancakeSwapVN",
+      // },
+      {
+        label: "Italiano",
+        href: "https://t.me/goosefinanceitalian",
+      },
+      {
+        label: "русский",
+        href: "https://t.me/goosefinancerussian",
+      },
+      {
+        label: "Türkiye",
+        href: "https://t.me/GooseFinanceTurkey",
+      },
+      // {
+      //   label: "Português",
+      //   href: "https://t.me/PancakeSwapPortuguese",
+      // },
+      {
+        label: "Español",
+        href: "https://t.me/goosefinancespanish",
+      },
+      {
+        label: "日本語",
+        href: "https://t.me/goosefinancejapanese",
+      },
+      {
+        label: "Français",
+        href: "https://t.me/goosefinancefrench",
       },
       {
         label: "Announcements",
-        href: "https://t.me/PantherSwapAnn",
+        href: "https://t.me/goosefinanceann",
+      },
+      {
+        label: "Price Bot",
+        href: "https://t.me/BinanceRocketEGG",
       },
     ],
+  },
+  {
+    label: "Twitter",
+    icon: "TwitterIcon",
+    href: "https://twitter.com/goosedefi",
+  },
+  {
+    label: "Reddit",
+    icon: "RedditIcon",
+    href: "https://www.reddit.com/r/GooseFinanceofficial",
   },
 ];
 

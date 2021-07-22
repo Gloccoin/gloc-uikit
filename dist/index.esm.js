@@ -2218,7 +2218,7 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: ""
+        href: "https://t.me/glocswapdex"
     },
     {
         label: "Twitter",

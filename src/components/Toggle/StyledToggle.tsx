@@ -26,11 +26,11 @@ export const Input = styled.input`
   }
 
   &:focus + ${Handle} {
-    box-shadow: ${({ theme }) => theme.shadows.focus};
+    box-shadow: ${({ theme }) => theme.colors.primary};
   }
 
   &:hover + ${Handle}:not(:disabled):not(:checked) {
-    box-shadow: ${({ theme }) => theme.shadows.focus};
+    box-shadow: ${({ theme }) => theme.colors.primary};
   }
 `;
 
